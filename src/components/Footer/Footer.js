@@ -21,7 +21,7 @@ const Footer = () => {
                                                                                  lineHeight={18}>{'Series'}</SText></NavLink>
             </div>
             <div>
-                <SText color={'#ffffff80'}>{'© 2022 FilmChick'}</SText>
+                <SText color={'#ffffff80'}>{'© 2023 FilmChick'}</SText>
             </div>
         </div>
     </div>
