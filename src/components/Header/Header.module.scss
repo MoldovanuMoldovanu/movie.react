@@ -1,0 +1,50 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+
+  transition: padding 0.3s ease;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  width: fit-content;
+  img {
+    height: 50px;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  span {
+    cursor: pointer;
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 7px;
+
+    &:hover {
+      border-bottom: 2px solid #ff0000 !important;
+      transition: border-bottom-width 0.3s ease;
+    }
+  }
+}

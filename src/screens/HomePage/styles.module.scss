@@ -1,0 +1,160 @@
+.carouselWrapper {
+  margin-bottom: 40px;
+}
+
+.sliderWrapper {
+  height: calc(100vh);
+  max-width: 100%;
+}
+
+.swiperWrapper {
+  width: 100%;
+  height: 200px;
+  background: orange;
+
+  img {
+    height: 100%;
+  }
+}
+
+.slide {
+  width: 300px;
+  background: gray;
+  position: relative;
+
+  > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.info {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  width: 900px;
+
+  div {
+    max-width: 650px;
+  }
+}
+
+.title {
+  margin-bottom: 40px;
+}
+
+.description {
+  margin-bottom: 40px;
+}
+
+.poster {
+  width: 300px;
+  border-radius: 24px;
+  display: flex;
+  align-items: flex-start;
+  img {
+    border-radius: 24px;
+
+    width: 100%;
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.watchNowBtn {
+  background: #ff0000;
+  height: 44px;
+  border-radius: 24px;
+  display: grid;
+  place-items: center;
+  width: 180px;
+  cursor: pointer;
+  user-select: none;
+  transition: box-shadow 0.5s 0ms;
+}
+
+.watchNowBtn:hover {
+  -webkit-box-shadow: 0px 1px 14px 12px rgba(255, 0, 0, 0.43);
+  -moz-box-shadow: 0px 1px 14px 12px rgba(255, 0, 0, 0.43);
+  box-shadow: 0px 1px 14px 12px rgba(255, 0, 0, 0.43);
+}
+
+.watchTrailerBtn {
+  height: 44px;
+  border-radius: 24px;
+  display: grid;
+  place-items: center;
+  width: 180px;
+  cursor: pointer;
+  user-select: none;
+  border: 2px solid #fffcfc;
+  color: #fffcfc;
+  size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.3s 0s;
+}
+
+.watchTrailerBtn:hover {
+  background: #fffcfc;
+  color: #ff0000;
+}
+
+.modal {
+  padding: 25px;
+  background: #0f0f0f;
+  position: relative;
+}
+
+.modal img {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  height: 15px;
+}
+
+.proposal {
+
+}
+
+.proposalTitle {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.proposalTitle a {
+  color: #fff;
+}
+
+.proposalLine {
+  max-width: 1300px;
+  padding: 0 50px;
+  margin: 0 auto 20px;
+
+}
+
+.moreBtn {
+  font-weight: 500;
+  border: 1px solid #fff;
+  padding: 3px 15px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.moreBtn:hover {
+  transition: all 0.3s ease;
+  background: #fff;
+  color: #ff0000;
+}
